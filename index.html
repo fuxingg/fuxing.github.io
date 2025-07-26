@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Blog</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --subtext: #666666;
+      --border: #e0e0e0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    header p {
+      color: var(--subtext);
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 1.2rem;
+    }
+
+    .item-title {
+      font-weight: 600;
+    }
+
+    .item-desc {
+      color: var(--subtext);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--subtext);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Richstar</h1>
+    <p>AI Undergraduate | Python Engineer | Web Developer</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a university student majoring in Artificial Intelligence. I specialize in Python backend development, and I'm passionate about building clean, scalable, and user-friendly web applications.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <div class="item-title">AI Anomaly Detection System</div>
+          <div class="item-desc">A Python-based platform using K-means++ and density weighting for real-time anomaly detection.</div>
+        </li>
+        <li>
+          <div class="item-title">Personal Portfolio (This Site)</div>
+          <div class="item-desc">Static responsive site hosted on GitHub Pages with minimalist Apple-style layout.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Internship Experience</h2>
+      <ul>
+        <li>
+          <div class="item-title">Backend Intern @ XYZ Tech</div>
+          <div class="item-desc">Worked with FastAPI and PostgreSQL to build internal tools and API endpoints for data workflows.</div>
+        </li>
+        <li>
+          <div class="item-title">Web Dev Intern @ ABC Solutions</div>
+          <div class="item-desc">Contributed to frontend components using Vue and Svelte in a collaborative development environment.</div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Richstar · Powered by GitHub Pages
+  </footer>
+</body>
+</html>
